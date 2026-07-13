@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     tools:context=".MainActivity">
 
     <EditText
@@ -98,6 +99,19 @@
         android:text="Broker"
         app:layout_constraintEnd_toStartOf="@+id/radioButton4"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="369dp"
+        android:layout_height="46dp"
+        android:text="Virtual Stock Exchange"
+        android:textColor="#9C27B0"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
