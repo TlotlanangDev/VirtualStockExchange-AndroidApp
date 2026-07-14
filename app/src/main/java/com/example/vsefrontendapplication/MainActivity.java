@@ -8,7 +8,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.vsefrontendapplication.Network.ApiService;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
+
 public class MainActivity extends AppCompatActivity {
+    private TextInputEditText loginEmailAddress;
+    private TextInputEditText loginPassword;
+    private MaterialButton loginbutton;
+    private ApiService apiService;
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,4 +33,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+
+
 }

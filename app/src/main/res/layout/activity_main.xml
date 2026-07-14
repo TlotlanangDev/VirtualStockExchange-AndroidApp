@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/loginEmailAddress"
         android:layout_width="311dp"
         android:layout_height="48dp"
         android:layout_marginTop="200dp"
@@ -21,17 +21,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/loginPassword"
         android:layout_width="311dp"
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text="Password"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/loginEmailAddress"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/loginEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/loginEmailAddress"
         app:layout_constraintVertical_bias="0.056" />
 
     <Button
@@ -40,10 +40,10 @@
         android:layout_height="wrap_content"
         android:text="login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/loginPassword"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/loginPassword"
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword"
         app:layout_constraintVertical_bias="0.223" />
 
     <Button
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toStartOf="@+id/radioButton3"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -78,7 +78,7 @@
         android:layout_marginEnd="5dp"
         android:text="Company"
         app:layout_constraintEnd_toStartOf="@+id/radioButton5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <RadioButton
         android:id="@+id/radioButton5"
@@ -88,7 +88,7 @@
         android:layout_marginEnd="16dp"
         android:text="Banker"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <RadioButton
         android:id="@+id/radioButton3"
@@ -98,7 +98,7 @@
         android:layout_marginEnd="3dp"
         android:text="Broker"
         app:layout_constraintEnd_toStartOf="@+id/radioButton4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <TextView
         android:id="@+id/textView"
